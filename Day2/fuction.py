@@ -30,10 +30,33 @@
 #         yield lst
 # for value in squa2([1,2,3]):
 #     print(value)
+def fibonacci_sequence(n):
 
+    a, b = 0, 1
+
+    count = 0
+
+    while count < n:
+
+        return a
+
+        a, b = b, a + b
+
+        count += 1
+
+# Khởi tạo iterator (generator object)
+
+fib_gen = fibonacci_sequence(10)
+print(type(fib_gen))
+print(fib_gen)
+# Lặp qua các giá trị trong iterator
+
+# for num in fib_gen:
+
+#     print(num)
 # -------------------------------------------------
 
 # Lambda in Python
 
-hung = lambda x, y=9: x+y
-print(hung(6))
+# hung = lambda x, y=9: x+y
+# print(hung(6))
